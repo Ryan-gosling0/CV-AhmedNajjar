@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Najjar's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script>function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+      
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+      
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      } 
+      window.addEventListener("scroll", reveal);
+      </script>
+</head>
+<body>
+    <a id="up"></a>
+    <section>
+        <h1>Ahmed Najjar's Portfolio <a href="#down">█</a>&#8595; </h1>
+      </section>
+      <section>
+        <div class="container reveal">
+          <h2>About me</h2> 
+          <div class="text-container">
+            <div class="text-box">
+              <h3>Who am i</h3>
+              <p>
+                I excel at quickly learning new concepts, communicating effectively, managing events, and building meaningful connections. I also bring strong problem-solving abilities and a sharp, logical mindset. <br>
+                <br>███████████████████████████ My CV : <a href="Doc1.pdf"  download > click here !!</a>███████
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>What i do</h3>
+              <p>
+                 I am a student My passion for technology drives me to continuously learn and adapt in this ever-evolving field. 
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Contacts</h3>
+              <p>
+                email: <a target="_blank" href="mailto:ahmedmidonajjar@gmail.com">ahmedmidonajjar@gmail.com</a> <br>
+                facebook: <a target="_blank" href="https://www.facebook.com/ahmed.najjar.5680">Ahmed Najjar</a> <br>
+                instagram: <a target="_blank" href="https://www.instagram.com/ahmed_najjar19/">ahmed_najjar19</a> <br>
+                LinkedIn: <a target="_blank" href="www.linkedin.com/in/ahmed-najjar-1522553a0"> ahmed-najjar20</a><br>
+                Number: (+216) 58885966
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="container reveal">
+          <h2>Projects</h2>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>What i work with</h3>
+              <p>
+                Python, HTML, CSS, JavaScript,C, SQL, Git, GitHub, Windows.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Some Projects</h3>
+              <p>
+                Check out my first hosted Site :<a target="_blank" href="https://ryan-gosling0.github.io/lamp/">lamp.com</a> <br>
+                <br> most of my projects are still in development and some are private.but i will share them soon.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Coming soon</h3>
+              <p onclick="alert('Please come back later')">Coming soon click to Check<a href="#up">up</a><a id="down"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+</body>
+</html>
